@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RealmMeteor_Example' do
+  pod 'RealmMeteor', :path => '../'
+
+  target 'RealmMeteor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
