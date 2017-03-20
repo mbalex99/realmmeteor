@@ -1,0 +1,6 @@
+framework module RealmMeteor {
+  umbrella header "RealmMeteor-umbrella.h"
+
+  export *
+  module * { export * }
+}

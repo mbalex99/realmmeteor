@@ -1,0 +1,33 @@
+{
+  "name": "RealmMeteor",
+  "version": "0.1.0",
+  "summary": "A short description of RealmMeteor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mbalex99@gmail.com/RealmMeteor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mbalex99@gmail.com": "mbalex99@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mbalex99@gmail.com/RealmMeteor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RealmMeteor/Classes/**/*",
+  "dependencies": {
+    "CryptoSwift": [
+      "~> 0.6.6"
+    ],
+    "SwiftWebSocket": [
+      "~> 2.6.5"
+    ],
+    "RealmSwift": [
+      "~> 2.4.3"
+    ]
+  }
+}

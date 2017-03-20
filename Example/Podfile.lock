@@ -1,0 +1,30 @@
+PODS:
+  - CryptoSwift (0.6.7)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmMeteor (0.1.0):
+    - CryptoSwift (~> 0.6.6)
+    - RealmSwift (~> 2.4.3)
+    - SwiftWebSocket (~> 2.6.5)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
+  - SwiftWebSocket (2.6.5)
+
+DEPENDENCIES:
+  - RealmMeteor (from `../`)
+
+EXTERNAL SOURCES:
+  RealmMeteor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CryptoSwift: 685ae257941e5447474348a2b545583e1a16b573
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmMeteor: c2eb346ac416440532f8e7b1de7960dcc0ffdac3
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  SwiftWebSocket: 1ef8a0efb023544643bdf480c1ec4a62b204f293
+
+PODFILE CHECKSUM: 2d0f22c19ea479e60c6e7d57d2a89c15f30ceb36
+
+COCOAPODS: 1.2.0
